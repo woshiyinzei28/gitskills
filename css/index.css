@@ -1,0 +1,40 @@
+ul{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid black;
+	margin: 0 auto;
+	background-color: #bbb;
+}
+.box{
+	width: 1000px;
+	height: 500px;
+	border: 1px solid black;
+	margin: 60px auto;
+	position: relative;
+}
+.box .left{
+	width: 30%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid black;
+}
+.box .left .btn{
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid black;
+	margin: 0 auto;
+	text-align: center;
+}
+.box .right{
+	width: 69%;
+	height: 100%;
+	float: right;
+}
